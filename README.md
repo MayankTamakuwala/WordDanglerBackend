@@ -11,7 +11,12 @@
 5. Setup env variables
    - navigate to the project directory you cloned
    - in the root of the project, create a plain text file called `.env`
-   - in the `.env` file you just created, paste the env variables in the the Discord's credentials channel
+   - in the `.env` file you just created, paste the following:
+     ```
+     DOMAIN=localhost
+     SERVER_PORT=8000
+     CLIENT_PORT=3000
+     ```
 6. Build and run:
    - in your command line, run `npm install` to install all of the project dependencies
    - run with `npm run start`
